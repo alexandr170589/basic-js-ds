@@ -32,7 +32,7 @@ class Queue {
 
   dequeue() {
     let removed = this.storage[this.head]
-    delete.this.storage[this.head]
+    delete this.storage[this.head]
     this.head++
     return removed
   }
