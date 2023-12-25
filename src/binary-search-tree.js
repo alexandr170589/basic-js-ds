@@ -50,7 +50,7 @@ class BinarySearchTree {
         return true;
       }
 
-      return data < node.data &
+      return data < node.data ?
 	searchWithin(node.left, data) :
 	searchWithin(node.right, data);
     }
